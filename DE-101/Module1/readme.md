@@ -139,5 +139,21 @@
   ![image](https://github.com/papchukev/datalearn/assets/149643273/d68e3fd2-9d05-4439-a14f-fd195398883c)  
 </details>
 
+## Дашборд
+На пустой лист копируем созданные ранее графики и диаграммы, добавляя срезы по интересующим нас полям
 
+![image](https://github.com/papchukev/datalearn/assets/149643273/6f5c9140-5986-44f5-90ad-51cc8a513d2b)
 
+Для основных метрик добавляем спарклайны (меню `Вставка` -> раздел Спарклайны -> `График`), в качестве источника данных выбираем созданный ранее отчет с основными метриками
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/a6b2ab91-f7b1-4533-8c49-dc9dd0166527)
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/3de41d87-d642-4ba5-b36d-7f369787ecd5)
+
+Подключаем созданные срезы ко всем диаграммам на дашборде
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/9dc0d506-90aa-49b3-a65e-706e79c87d88)
+
+Финальный дашборд
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/0cfa515b-d5de-44e0-a43e-227a797445f0)
