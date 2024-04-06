@@ -43,7 +43,7 @@
 
 ## Объединение данных.
 Данные с 3-х листов объединим в 1 таблицу на листе *Orders*, т.к. он содержит больше всего информации и имеет общие поля с двумя другими листами - поле "Region" с листом *People* , поле "Order ID" с листом *Returns*.
-1. Оформляем данные на листе *Orders* как таблицу используя команду `"Форматировать как таблицу"`. 
+1. Оформляем данные на листе *Orders* как таблицу используя команду `"Форматировать как таблицу"`, в меню на вкладке `"Конструктор таблиц"` задаем имя таблицы - *Data*. 
 
    <details> 
      <summary> показать </summary>
@@ -78,12 +78,66 @@
       </details>  
 
 ## Создание отчетов и визуализаций.
+Для создания отчета(в виде сводной таблице) на пустом листе используем вкладку `Вставка` -> `Сводная таблица`, в качестве диапазона указываем созданную ранее таблицу *Data*
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/0a1ae589-5de9-43fe-8e8e-66d632146965)
+
+Далее в меню `Поля сводной таблицы` добавляем в список `Строки` поля,по которым будет происходить агрегация, а в список `Значения` - поля с числовыми значениями, которые будут агрегироваться
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/82cde7d6-caf2-41f8-9465-c71cd8c6ff2a)
+
+Выделяем полученную сводную таблицу и используя в меню команду `Сводная диаграмма` строим подходящую визуализацию
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/05c454af-67bb-4cb5-9612-ac8bcd2235b7)
+
+Получаем сводную таблицу с данными о продажах и прибыли по месяцам/годам + график динамики продаж и прибыли
+
+![image](https://github.com/papchukev/datalearn/assets/149643273/a007add3-5e16-4891-9283-5b7bb51ebe4c)
 
 
+Повторяем эти же шаги, выбирая поля, по которым агрегируются значения и поля с числовыми значениями, для создания необходимых отчетов
 
+<details> 
+  <summary> прибыль/продажи по категориям и подкатегориям </summary>
+  
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/95f81d48-aa6c-4307-89cc-dec964d5ed64)  
+</details>
 
+<details> 
+  <summary> прибыль/продажи по региональным менеджерам </summary>
 
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/d8257dd0-d16e-44b7-bccb-0d591982d07d)
+</details>
 
+<details> 
+  <summary> динамика продаж по сегментам </summary>
+
+   ![image](https://github.com/papchukev/datalearn/assets/149643273/4524da17-ce2c-448b-a1e3-99e955c2040d) 
+</details>
+
+<details> 
+  <summary> прибыль/продажи по сегментам </summary>
+
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/f86a8911-0f42-4b8f-9a45-912bd74bedef)  
+</details>
+
+<details> 
+  <summary> продажи по регионам </summary>
+
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/88bb207b-b3a6-4392-b715-163285051406)  
+</details>
+
+<details> 
+  <summary> возвраты </summary>
+
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/235e95bc-8df1-4f8b-881e-d95522060799)  
+</details>
+
+<details> 
+  <summary> основные метрики </summary>
+
+  ![image](https://github.com/papchukev/datalearn/assets/149643273/d68e3fd2-9d05-4439-a14f-fd195398883c)  
+</details>
 
 
 
