@@ -25,3 +25,20 @@ people
 
 returns
 ![изображение](https://github.com/papchukev/datalearn/assets/149643273/7ef4a1bf-6474-415d-84ce-db50e06535bb)
+
+Далее заполняем таблицы данными
+
+*orders.sql*
+
+![изображение](https://github.com/papchukev/datalearn/assets/149643273/601e8e3a-366a-4cc0-96c7-dd4e3a45fde5)
+
+*people.sql*
+
+![изображение](https://github.com/papchukev/datalearn/assets/149643273/76f2bfe7-092d-4ce3-b165-3c327dc2ff51)
+
+*returns.sql*
+
+![изображение](https://github.com/papchukev/datalearn/assets/149643273/9a92a9b3-de49-42b8-b933-f0135a54768a)
+
+
+
